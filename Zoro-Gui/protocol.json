@@ -1,0 +1,20 @@
+﻿{
+  "ProtocolConfiguration": {
+    "NetworkType": "Internet",
+    "Magic": 20190222,
+    "AddressVersion": 23,
+    "SecondsPerBlock": 1,
+    "StandbyValidators": [
+     "03072384ece95c4febe7211ee4833cd36cdf0f255ec5263b28a4be1f2af7a3d7f3",
+     "0208da33cee651a4dc119654b5b8067ade533e39e63a8b4fdbd160d97f80c4cfb4",
+     "026f0af815d5c3895205e9f54b9402329f3ecc4d249fc0c8500e9b3ea8a3ec9d5b",
+     "03b4e070988627e2a5710b2c8c79f0f0be18821e1af5875b7beeb3fa8a921cde3f"
+    ],
+    "SeedList": [
+      "127.0.0.1:20065",
+      "127.0.0.1:20066",
+      "127.0.0.1:20067",
+      "127.0.0.1:20068"
+    ]
+  }
+}
