@@ -29,8 +29,6 @@
         private void InitializeComponent()
         {
             this.btnAccountRefresh = new System.Windows.Forms.Button();
-            this.lblBctBalance = new System.Windows.Forms.Label();
-            this.label44 = new System.Windows.Forms.Label();
             this.lblBcpBalance = new System.Windows.Forms.Label();
             this.label46 = new System.Windows.Forms.Label();
             this.label47 = new System.Windows.Forms.Label();
@@ -49,38 +47,19 @@
             this.btnAccountRefresh.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnAccountRefresh.Font = new System.Drawing.Font("微软雅黑", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.btnAccountRefresh.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.btnAccountRefresh.Location = new System.Drawing.Point(771, 43);
+            this.btnAccountRefresh.Location = new System.Drawing.Point(756, 42);
             this.btnAccountRefresh.Name = "btnAccountRefresh";
-            this.btnAccountRefresh.Size = new System.Drawing.Size(47, 29);
+            this.btnAccountRefresh.Size = new System.Drawing.Size(76, 29);
             this.btnAccountRefresh.TabIndex = 41;
-            this.btnAccountRefresh.Text = "刷新";
+            this.btnAccountRefresh.Text = "Refresh";
             this.btnAccountRefresh.UseVisualStyleBackColor = false;
             this.btnAccountRefresh.Click += new System.EventHandler(this.btnAccountRefresh_Click);
-            // 
-            // lblBctBalance
-            // 
-            this.lblBctBalance.AutoSize = true;
-            this.lblBctBalance.ForeColor = System.Drawing.Color.DodgerBlue;
-            this.lblBctBalance.Location = new System.Drawing.Point(587, 65);
-            this.lblBctBalance.Name = "lblBctBalance";
-            this.lblBctBalance.Size = new System.Drawing.Size(140, 20);
-            this.lblBctBalance.TabIndex = 40;
-            this.lblBctBalance.Text = "00000000.00000000";
-            // 
-            // label44
-            // 
-            this.label44.AutoSize = true;
-            this.label44.Location = new System.Drawing.Point(518, 65);
-            this.label44.Name = "label44";
-            this.label44.Size = new System.Drawing.Size(77, 20);
-            this.label44.TabIndex = 39;
-            this.label44.Text = "BCT余额：";
             // 
             // lblBcpBalance
             // 
             this.lblBcpBalance.AutoSize = true;
             this.lblBcpBalance.ForeColor = System.Drawing.Color.DodgerBlue;
-            this.lblBcpBalance.Location = new System.Drawing.Point(587, 31);
+            this.lblBcpBalance.Location = new System.Drawing.Point(587, 48);
             this.lblBcpBalance.Name = "lblBcpBalance";
             this.lblBcpBalance.Size = new System.Drawing.Size(140, 20);
             this.lblBcpBalance.TabIndex = 38;
@@ -89,7 +68,7 @@
             // label46
             // 
             this.label46.AutoSize = true;
-            this.label46.Location = new System.Drawing.Point(518, 30);
+            this.label46.Location = new System.Drawing.Point(529, 47);
             this.label46.Name = "label46";
             this.label46.Size = new System.Drawing.Size(63, 20);
             this.label46.TabIndex = 37;
@@ -100,9 +79,9 @@
             this.label47.AutoSize = true;
             this.label47.Location = new System.Drawing.Point(38, 80);
             this.label47.Name = "label47";
-            this.label47.Size = new System.Drawing.Size(79, 20);
+            this.label47.Size = new System.Drawing.Size(76, 20);
             this.label47.TabIndex = 36;
-            this.label47.Text = "钱包地址：";
+            this.label47.Text = "Address：";
             // 
             // tbxAccountWif
             // 
@@ -127,18 +106,18 @@
             this.label48.AutoSize = true;
             this.label48.Location = new System.Drawing.Point(38, 48);
             this.label48.Name = "label48";
-            this.label48.Size = new System.Drawing.Size(78, 20);
+            this.label48.Size = new System.Drawing.Size(46, 20);
             this.label48.TabIndex = 34;
-            this.label48.Text = "钱包 Wif：";
+            this.label48.Text = "Wif：";
             // 
             // label2
             // 
             this.label2.AutoSize = true;
             this.label2.Location = new System.Drawing.Point(39, 15);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(82, 20);
+            this.label2.Size = new System.Drawing.Size(54, 20);
             this.label2.TabIndex = 48;
-            this.label2.Text = "RPC地址 ：";
+            this.label2.Text = "RPC ：";
             // 
             // tbxRpcUrl
             // 
@@ -147,7 +126,7 @@
             this.tbxRpcUrl.Name = "tbxRpcUrl";
             this.tbxRpcUrl.Size = new System.Drawing.Size(391, 25);
             this.tbxRpcUrl.TabIndex = 47;
-            this.tbxRpcUrl.Text = "http://127.0.0.1:20332";
+            this.tbxRpcUrl.Text = "http://47.52.100.172:20331";
             this.tbxRpcUrl.TextChanged += new System.EventHandler(this.tbxRpcUrl_TextChanged);
             // 
             // AccountFrm
@@ -158,8 +137,6 @@
             this.Controls.Add(this.label2);
             this.Controls.Add(this.tbxRpcUrl);
             this.Controls.Add(this.btnAccountRefresh);
-            this.Controls.Add(this.lblBctBalance);
-            this.Controls.Add(this.label44);
             this.Controls.Add(this.lblBcpBalance);
             this.Controls.Add(this.label46);
             this.Controls.Add(this.label47);
@@ -179,8 +156,6 @@
         #endregion
 
         private System.Windows.Forms.Button btnAccountRefresh;
-        private System.Windows.Forms.Label lblBctBalance;
-        private System.Windows.Forms.Label label44;
         private System.Windows.Forms.Label lblBcpBalance;
         private System.Windows.Forms.Label label46;
         private System.Windows.Forms.Label label47;

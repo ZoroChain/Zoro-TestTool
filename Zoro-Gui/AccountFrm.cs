@@ -81,17 +81,17 @@ namespace Zoro_Gui
 
                 }
 
-                using (ScriptBuilder sb = new ScriptBuilder())
-                {
-                    sb.EmitSysCall("Zoro.NativeNEP5.Call", "BalanceOf", bctAssetId, addressHash);
-                    sb.EmitSysCall("Zoro.NativeNEP5.Call", "Decimals", bctAssetId);
+                //using (ScriptBuilder sb = new ScriptBuilder())
+                //{
+                //    sb.EmitSysCall("Zoro.NativeNEP5.Call", "BalanceOf", bctAssetId, addressHash);
+                //    sb.EmitSysCall("Zoro.NativeNEP5.Call", "Decimals", bctAssetId);
 
-                    var info = ZoroHelper.InvokeScript(RpcUrl, sb.ToArray(), "");
-                    var value = GetBalanceFromJson(info);
+                //    var info = ZoroHelper.InvokeScript(RpcUrl, sb.ToArray(), "");
+                //    var value = GetBalanceFromJson(info);
 
-                    lblBctBalance.Text = value;
+                //    lblBctBalance.Text = value;
 
-                }
+                //}
 
                 //using (ScriptBuilder sb = new ScriptBuilder())
                 //{
