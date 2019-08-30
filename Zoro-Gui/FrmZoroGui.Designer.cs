@@ -1792,7 +1792,6 @@
             this.tbxLockContract.BackColor = System.Drawing.SystemColors.ButtonHighlight;
             this.tbxLockContract.Location = new System.Drawing.Point(125, 137);
             this.tbxLockContract.Name = "tbxLockContract";
-            this.tbxLockContract.ReadOnly = true;
             this.tbxLockContract.Size = new System.Drawing.Size(391, 25);
             this.tbxLockContract.TabIndex = 35;
             this.tbxLockContract.Text = "0x7c99961fb3c6c9bb8b8b8f4deab1c055755e78f8";
