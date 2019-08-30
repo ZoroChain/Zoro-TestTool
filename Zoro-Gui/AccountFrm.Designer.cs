@@ -126,7 +126,7 @@
             this.tbxRpcUrl.Name = "tbxRpcUrl";
             this.tbxRpcUrl.Size = new System.Drawing.Size(391, 25);
             this.tbxRpcUrl.TabIndex = 47;
-            this.tbxRpcUrl.Text = "http://47.52.100.172:20331";
+            this.tbxRpcUrl.Text = "http://127.0.0.1:20332";
             this.tbxRpcUrl.TextChanged += new System.EventHandler(this.tbxRpcUrl_TextChanged);
             // 
             // AccountFrm
